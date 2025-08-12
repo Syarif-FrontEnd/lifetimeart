@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+
+.mySwiper {
+  padding-bottom: 50px !important;
+}
+
+.mySwiper .swiper-pagination {
+  bottom: 0 !important;
+}
+.mySwiper .swiper-pagination-bullet {
+  background: #101014 !important;
+  opacity: 0.5;
+}
+
+.mySwiper .swiper-pagination-bullet-active {
+  background: #101014 !important;
+  opacity: 1;
+}
+
+@media (min-width: 640) {
+  .mySwiper .swiper-pagination {
+    display: none !important;
+  }
+}
